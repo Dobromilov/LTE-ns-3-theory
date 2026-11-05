@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 365" role="img" aria-labelledby="title desc">
+<title id="title">Объекты IP-сценария ns-3</title><desc id="desc">На каждом узле приложение использует стек протоколов и сетевое устройство. Два устройства связаны каналом.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5 0 7" fill="none" stroke="#6c8173"/></marker></defs>
+<rect x="1" y="1" width="758" height="363" rx="10" fill="#fffefa" stroke="#dfe4da"/>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+<rect x="32" y="28" width="268" height="300" rx="7" fill="#f3f5f2" stroke="#d2dad3"/><text x="166" y="62" font-size="17" font-weight="600" fill="#25372e">Node A</text>
+<rect x="460" y="28" width="268" height="300" rx="7" fill="#f3f5f2" stroke="#d2dad3"/><text x="594" y="62" font-size="17" font-weight="600" fill="#25372e">Node B</text>
+<g fill="#fffefa" stroke="#cbd5cb"><rect x="60" y="85" width="212" height="49" rx="4"/><rect x="60" y="163" width="212" height="49" rx="4"/><rect x="488" y="85" width="212" height="49" rx="4"/><rect x="488" y="163" width="212" height="49" rx="4"/></g>
+<g fill="#e5ede0" stroke="#b9cbb4"><rect x="60" y="250" width="212" height="49" rx="4"/><rect x="488" y="250" width="212" height="49" rx="4"/></g>
+<g font-size="13" fill="#334d3b"><text x="166" y="115">Application</text><text x="166" y="193">Протоколы · IP / UDP</text><text x="166" y="280">NetDevice</text><text x="594" y="115">Application</text><text x="594" y="193">Протоколы · IP / UDP</text><text x="594" y="280">NetDevice</text></g>
+<g stroke="#6c8173" fill="none" stroke-width="1.4" marker-end="url(#arrow)"><path d="M166 135V160"/><path d="M166 214V247"/><path d="M594 247V215"/><path d="M594 160V137"/><path d="M273 275H330"/><path d="M430 275H485"/></g>
+<rect x="331" y="250" width="98" height="49" rx="4" fill="#eef0ec" stroke="#c8d1c7"/><text x="380" y="280" font-size="13" fill="#334d3b">Channel</text>
+<text x="380" y="226" font-size="10" fill="#7c8781">путь данных</text>
+</g></svg>

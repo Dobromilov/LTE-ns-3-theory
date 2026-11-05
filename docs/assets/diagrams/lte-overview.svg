@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+<title id="title">Путь пользовательских данных в LTE</title><desc id="desc">От удалённого сервера через EPC к базовой станции eNB, затем по радиоканалу к UE. Показано направление downlink.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5 0 7" fill="none" stroke="#6c8173"/></marker></defs>
+<rect x="1" y="1" width="798" height="258" rx="9" fill="#fffefa" stroke="#dfe4da"/>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<text x="30" y="32" text-anchor="start" font-size="11" letter-spacing="1" fill="#7c8781">ПОЛЬЗОВАТЕЛЬСКИЕ ДАННЫЕ · DOWNLINK</text>
+<g fill="#f2f5ef" stroke="#cbd5c8"><rect x="30" y="73" width="155" height="102" rx="6"/><rect x="225" y="73" width="155" height="102" rx="6"/><rect x="420" y="73" width="155" height="102" rx="6"/></g>
+<rect x="615" y="73" width="155" height="102" rx="6" fill="#e5ede0" stroke="#bbceb3"/>
+<g fill="#2c4434" font-size="18" font-weight="600"><text x="107" y="107">Remote Host</text><text x="302" y="107">EPC</text><text x="497" y="107">eNB</text><text x="692" y="107">UE</text></g>
+<g fill="#73806f" font-size="12"><text x="107" y="133">Сервер</text><text x="302" y="133">PGW → SGW</text><text x="497" y="133">Базовая станция</text><text x="692" y="133">Устройство</text><text x="302" y="153">Ядро сети</text></g>
+<g stroke="#6c8173" stroke-width="1.5" marker-end="url(#arrow)"><path d="M187 123H221"/><path d="M382 123H416"/><path d="M578 123H611" stroke-dasharray="3 3"/></g>
+<g fill="#7c8781" font-size="10"><text x="205" y="199">IP-сеть</text><text x="399" y="199">S1-U</text><text x="595" y="199">Радиоканал</text></g>
+<text x="400" y="235" font-size="11" fill="#7c8781">Для uplink направление пользовательских данных меняется на обратное.</text>
+</g></svg>

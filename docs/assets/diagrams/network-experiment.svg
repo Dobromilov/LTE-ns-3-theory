@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 265" role="img" aria-labelledby="title desc">
+<title id="title">Пример модели сети в ns-3</title><desc id="desc">Узел A отправляет данные через канал 8 мегабит в секунду с задержкой 2 миллисекунды к узлу B.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4 0 8" fill="none" stroke="#658176"/></marker></defs>
+<rect x="1" y="1" width="758" height="263" rx="10" fill="#fffefa" stroke="#dfe4da"/>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+<text x="36" y="33" text-anchor="start" font-size="11" letter-spacing="1" fill="#7c8781">МОДЕЛЬ СЕТИ</text>
+<rect x="38" y="62" width="190" height="145" rx="7" fill="#f3f5f2" stroke="#d2dad3"/>
+<text x="133" y="91" font-size="17" font-weight="600" fill="#25372e">Узел A</text>
+<text x="133" y="119" font-size="12" fill="#66766b">Приложение-отправитель</text>
+<rect x="64" y="143" width="138" height="39" rx="4" fill="#e5ede0" stroke="#bcccb7"/><text x="133" y="167" font-size="12" fill="#3a5742">Сетевое устройство</text>
+<rect x="532" y="62" width="190" height="145" rx="7" fill="#f3f5f2" stroke="#d2dad3"/>
+<text x="627" y="91" font-size="17" font-weight="600" fill="#25372e">Узел B</text>
+<text x="627" y="119" font-size="12" fill="#66766b">Приложение-получатель</text>
+<rect x="558" y="143" width="138" height="39" rx="4" fill="#e5ede0" stroke="#bcccb7"/><text x="627" y="167" font-size="12" fill="#3a5742">Сетевое устройство</text>
+<path d="M229 162H529" stroke="#658176" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="353" y="149" width="52" height="26" rx="4" fill="#c38255"/><text x="379" y="166" font-size="10" fill="#fff">пакет</text>
+<text x="380" y="99" font-size="14" fill="#25372e">Channel</text><text x="380" y="121" font-size="12" fill="#66766b">8 Мбит/с · 2 мс</text>
+<text x="380" y="237" font-size="11" fill="#7c8781">Узлы, устройства и канал — отдельные программные объекты.</text>
+</g></svg>
